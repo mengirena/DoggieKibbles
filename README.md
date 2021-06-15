@@ -1,5 +1,11 @@
 # Pricing component
 
+## Demo
+
+![caption](https://cvws.icloud-content.com/B/AeIF3n9DstSvHbHRrB51wgpvnZkiAQeoQsNLISaBOhyRwaFc3BFA0L4d/Screen+Recording+2021-06-15+at+10.31.16+AM.mov?o=AkwRf1QCETTlWjZhV5lJVR_9K43cPIijh27kfh9yfnCR&v=1&x=3&a=CAogwKKagzhzf9DkeP01xa5yO8rDMyjSJrDE-pl06OCv3cASbRDdjoSGoS8Y_YW7hqEvIgEAUgRvnZkiWgRA0L4daibcvHy9rljRIO6tm7bFuKkV2_VvBVpkwYV0q0igA4phkQOBgerB33ImVLVHUz31OL-McAJrlxeSOK5kbWKh16Iry8lfSCl3UkSzCHh9Er8&e=1623779623&fl=&r=00d378a0-1630-44e8-8f75-6a27a28a5980-1&k=qwMs3VsS0VT0RPjqpdq6jA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=34&s=L9HF69TVx6R9a4VTilg5GtMhvco&cd=i)
+
+[Site](https://doggiekibbles.netlify.app)
+
 ## How it's built
 **Tech used:** HTML, CSS
 
