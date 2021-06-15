@@ -1,10 +1,10 @@
 # Pricing component
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8dd3688a-8f84-4c53-8702-a2cd7fcbe574/deploy-status)](https://app.netlify.com/sites/doggiekibbles/deploys)
+![Netlify Status](https://api.netlify.com/api/v1/badges/8dd3688a-8f84-4c53-8702-a2cd7fcbe574/deploy-status)](https://app.netlify.com/sites/doggiekibbles/deploys)
 
 ## Demo
 
-![caption](https://cvws.icloud-content.com/B/AbsXmq6I7kua-PtrabdOesIYKSWyAef8PaSanrvI7iVMzjYZwECnJf54/Screen+Shot.png?o=AgzGrD7NrPF31dxayufv1fhPPdixA1Yx3R21nk-5ZrnN&v=1&x=3&a=CAogvhnQoMsW5s6FGf86bWaKeZWxz24yzJkZKmZWshscQCUSbRD2ttOGoS8Ylq6Kh6EvIgEAUgQYKSWyWgSnJf54aiZmXQ-e83m3LG1k6YuBneTlp6Ssy2J3KTGZjcpmGIvtKIn0bZCZtXImUGLGNqbc0wSNHeZgEWB6fJ54qbFtwmWvcCWpHpsrppUtRXVDp9s&e=1623780923&fl=&r=e79fa858-e030-4b53-b975-f3c41f52f21b-1&k=dnC9UUK22IVxA0cB96ADlA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=34&s=R-qYVmEyqfy7lpZlntTb_p0ZQgg&cd=i)
+![image](https://tinyurl.com/jphzca)
 
 [Site](https://doggiekibbles.netlify.app)
 
