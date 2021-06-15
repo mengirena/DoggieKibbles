@@ -1,9 +1,11 @@
 # Pricing component
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/8dd3688a-8f84-4c53-8702-a2cd7fcbe574/deploy-status)](https://app.netlify.com/sites/doggiekibbles/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8dd3688a-8f84-4c53-8702-a2cd7fcbe574/deploy-status)](https://app.netlify.com/sites/doggiekibbles/deploys)
 
 ## Demo
 
+<img width="1115" alt="Screen Shot" src="https://user-images.githubusercontent.com/51871665/122101457-2bafe380-cdc9-11eb-87fa-05396ee4cd60.png">
+<img width="1115" alt="Screen Shot" src="https://tinyurl.com/jphzca">
 ![image](https://tinyurl.com/jphzca)
 
 [Site](https://doggiekibbles.netlify.app)
