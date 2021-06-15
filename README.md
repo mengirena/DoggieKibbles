@@ -4,10 +4,7 @@
 
 ## Demo
 
-<img width="1115" alt="Screen Shot" src="https://user-images.githubusercontent.com/51871665/122101457-2bafe380-cdc9-11eb-87fa-05396ee4cd60.png">
-<img width="1115" alt="Screen Shot" src="https://tinyurl.com/jphzca">
-![image](https://tinyurl.com/jphzca)
-
+<img width="515" alt="Screen Shot" src="https://user-images.githubusercontent.com/51871665/122101457-2bafe380-cdc9-11eb-87fa-05396ee4cd60.png">
 [Site](https://doggiekibbles.netlify.app)
 
 ## How it's built
