@@ -1,0 +1,185 @@
+/* Instructions */
+/* When clicked, the selected card should enlarge (up to you how much) and the price should have a color of #ffd60a*/
+/* The non-selected cards should reduce in opacity */
+/* Stretch goal: add a toggle to display monthly and annual prices */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    background: no-repeat url("background\ dogie.jpg") 80% bottom/600px auto, hsl(40,100%,53%);
+}
+
+h1{
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 3rem;
+    margin: 50px auto 30px auto;
+}
+
+h1,
+.tagline {
+    text-align: center;   
+}
+
+.tagline {
+    padding-bottom: 1em;
+}
+
+.plan span{
+    cursor: pointer;
+    display:block;
+    padding-top: 0.7rem;
+}
+
+.plan{
+    width: 100px;
+    height: 30px;
+    background:transparent;
+    /*border-radius: 20px;
+    background:rgba(200, 78, 90, 0.5);
+    color:white;
+/*text-align: center;*/
+    margin: 0rem auto 0.8rem auto;
+  /*  display:flex;
+    justify-content: space-evenly;
+    align-items:center;*/
+    perspective: 1000px;
+}
+
+.plan-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+
+.flip-front,.flip-back{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+
+/*.flip-front{
+    background-color: #bbb;
+    color: black;
+}*/
+
+.flip-back, .flip-front {
+    background:rgba(200, 78, 90, 0.5);
+    border-radius: 20px;
+    color: white;
+    /*transform: rotateY(180deg);*/
+}
+
+.flip-back{
+    transform: rotateY(-180deg);
+}
+
+.chosen{
+    display:block;
+    border-radius: 20px;
+    background: white;
+    width: 50%;
+    padding: 0.3rem;
+    padding-right: 4rem;
+    color: rgba(0,0,0,0.8)
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1000px;
+    height: 500px;
+}
+
+.card {
+    cursor: pointer;
+    color: rgb(13, 13, 68);
+    background-color: rgba(255,255,255,0.5);
+    /*border: 1px solid #eee;*/
+    border-radius: 8px;
+    width: 400px;
+    height:56vh ;
+    min-height:345.59px;
+    text-align: center;
+    margin: 1em;
+    padding: 1em 1em 1em 0.3em;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 5px 5px 10px rgba(80,80,80,0.9);
+    transition: box-shadow 0.1s, transform 0.5s, opacity 0.5s;
+}
+
+.card:hover{
+    box-shadow: 13px 13px 18px rgba(120,120,120,0.4);
+}
+
+.emphasis{
+    transform:scale(1.06);
+}
+
+.defocus{
+    opacity:0.5;
+}
+
+.card h2 {
+    
+    margin: 1rem;
+    font-size: 2vw;
+}
+
+ul{
+    margin-top:2rem;
+    height:20vh;
+    overflow:auto;
+}
+
+p{
+    margin-top: 1.5rem;
+}
+
+.card ul li {
+    text-align: left;
+    padding: 0 0 1em 0.5em;
+}
+
+.card ul li:last-child {
+    padding-bottom: 5em;
+}
+
+.card ul li::marker {
+    content: '🐾'
+}
+
+
+button {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 1em 2em;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+    background-color: hsl(240,100%,20%); /*#001d3d*/
+    color: #ccc;
+    border-radius: 5px;
+    align-self:center;
+    
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+    background-color: hsl(40,100%,53%);
+    color: black;
+}
