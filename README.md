@@ -6,7 +6,7 @@
 
 <img width="615" alt="Screen Shot" src="https://user-images.githubusercontent.com/51871665/122101457-2bafe380-cdc9-11eb-87fa-05396ee4cd60.png">
 
-[Site](https://doggiekibbles.netlify.app)
+<!--[Site](https://doggiekibbles.netlify.app)-->
 
 ## How it's built
 **Tech used:** HTML, CSS
