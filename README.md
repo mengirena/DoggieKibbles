@@ -95,3 +95,7 @@ The event type "mouseleave" is differernt from "mouseout". "mouseout" will trigg
 ### How do we make fluid font size
 
 We can use `vh` or `vw` lenght unit. 
+
+
+Reference
+<a href='https://www.freepik.com/photos/dog'>Dog photo created by freepik - www.freepik.com</a>
