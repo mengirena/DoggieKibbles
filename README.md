@@ -4,6 +4,8 @@
 
 👆🏽 click to check the live page
 
+This pricing component could be further implemented in your website to show differernt plans to subscribe to your products. 
+
 ## Demo
 
 <img width="615" alt="Screen Shot" src="https://user-images.githubusercontent.com/51871665/122101457-2bafe380-cdc9-11eb-87fa-05396ee4cd60.png">
