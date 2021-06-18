@@ -80,10 +80,17 @@ If a `transform` property has a value other than its initial value, a stacking c
 
     - `translateZ(length)`
 
-The stacking context 
+The stacking context is the concept of making elements to have z-axis degree of freedom. Some elements have special properties to form a stacking context. Some scenarios are:
 
+ - With `transform`, `filter`, `perspective`, `clip-path`, `mask` / `mask-image` / `mask-border` properties and their values are not none.
 
+ - With `position` value `absolute` or `relative` and `z-index` is not auto or with value `fixed` or `sticky`
 
+ - A child of flex or grid container and the z-index is not auto
+
+ [other scenarios...](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context#the_stacking_context)
+ 
+The rendering order starting from the root elements in the same stacking context with lower z-index being rendered first. The z-index is independent from different stacking contexts. 
 
 ### Get the first child from NodeList
 
