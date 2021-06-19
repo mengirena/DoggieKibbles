@@ -92,6 +92,14 @@ The stacking context is the concept of making elements to have z-axis degree of 
  
 The rendering order starting from the root elements in the same stacking context with lower z-index being rendered first. The z-index is independent from different stacking contexts. 
 
+Using z-index can create customized stacking order, when the z-index is not specified the rendering order will follow:
+
+1. The background and borders of the root elements
+
+2. Non-positioned blocks
+
+3. Positioned elements 
+
 ### Get the first child from NodeList
 
 Use `firstElementChild`
